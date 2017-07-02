@@ -1,14 +1,13 @@
 package exe03;
 
-public class StudentController implements Controller {
-	private Student model;
-	private StudentView view;
-
-	public StudentController(Student model, StudentView view) {
+public class ProfessorController implements Controller {
+	private Professor model;
+	private ProfessorView view;
+	public ProfessorController(Professor model, ProfessorView view) {
 		this.model = model;
 		this.view = view;
 	}
-	@Override
+	@Override	
 	public void setName(String name) {
 		model.setName(name);
 	}
@@ -28,5 +27,4 @@ public class StudentController implements Controller {
 	public void updateView() {
 		view.printDetails(model.getName(), model.getRollNo());
 	}
-
 }

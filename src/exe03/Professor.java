@@ -1,6 +1,6 @@
 package exe03;
 
-public class Student implements Model{
+public class Professor implements Model{
 	private String rollNo;
 	private String name;
 	@Override

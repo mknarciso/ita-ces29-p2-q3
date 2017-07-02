@@ -20,3 +20,6 @@ OBS1 - Repositório: https://github.com/kabartsjc/P2EXE03.git
 
 OBS2: O Projeto deve ser um projeto Maven, onde todas as bibliotecas necessárias devem ser configuradas dentro do POM (a correção vai ser binária, caso o projeto não compile ao se rodar o POM).
 
+## Comentários
+
+Além da modificação de MVCPatternDemo.java, com a demonstração do uso do programa modificado, foi incluido um teste jUnit MismatchErrorTest.java, para verificar se a fábrica lança excessão quando os tipos de Model e View são incompatíveis. A princípio poderiam ser generalizados, já que possuem os mesmos campos, mas para fins de manter o programa extensível optou-se por criar interfaces para ambos e mantê-los isolados para fins didáticos.
